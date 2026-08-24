@@ -4,17 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node backend/server.js"
+    "dev": "node --use-system-ca backend/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "autoprefixer": "^10.5.4",
     "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.9.1"
+    "mongoose": "^9.9.1",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3"
   }
 }
